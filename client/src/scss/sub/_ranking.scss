@@ -1,0 +1,66 @@
+/* Ranking */
+
+.top12 {
+  font: {
+    weight: 500;
+    size: 24px;
+  }
+  margin: {
+    left: 5%;
+    bottom: 20px;
+  }
+  color: rgb(100, 138, 139);
+}
+.TopRank {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10vh;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  column-gap: 3px;
+  row-gap: 3px;
+  .rankItem {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(104, 155, 207);
+    }
+    .rank {
+      font: {
+        style: italic;
+        size: 26px;
+      }
+      padding: 20px;
+      color: #467eb6;
+    }
+    .rankInfo .rankCompany {
+      font: {
+        style: italic;
+        size: 14px;
+        weight: 600;
+      }
+      margin-top: 15px;
+      color: $mediaColor;
+    }
+  }
+}
+
+@media screen and (max-width: 1248px) {
+  .TopRank {
+    grid-template-columns: repeat(3, 33%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .TopRank {
+    width: 95%;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media screen and (max-width: 480px) {
+  .TopRank {
+    grid-template-columns: repeat(1, 100%);
+  }
+}

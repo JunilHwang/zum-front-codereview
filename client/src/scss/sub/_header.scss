@@ -1,0 +1,71 @@
+/*Header Nav */
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 15%;
+  .Logo {
+    width: 80px;
+    margin-right: 10%;
+    cursor: pointer;
+  }
+  nav {
+    display: inline-block;
+  }
+  .navigator .menu {
+    display: flex;
+    margin-left: 100px;
+    list-style: none;
+    .menuItem {
+      height: 100%;
+      padding: 10px;
+      margin: 0 30px;
+      font-weight: 500;
+      color: $navItem;
+      cursor: pointer;
+      a {
+        color: $navItem;
+        text-decoration: none;
+      }
+    }
+    .menuItem.on {
+      background: RGB(84, 126, 167);
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 10px 1%;
+    .navigator .menu {
+      margin-left: 50px;
+      .menuItem {
+        padding: 10px;
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header .navigator .menu {
+    margin-left: 20px;
+    .menuItem {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .header .navigator .menu {
+    margin-left: 20px;
+    .menuItem {
+      font-size: 12px;
+    }
+  }
+}

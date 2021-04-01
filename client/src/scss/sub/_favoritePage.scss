@@ -1,0 +1,92 @@
+/* Favorite Page */
+
+.favorite {
+  .favoriteTitle {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    font-size: 28px;
+    color: white;
+    background-color: $titleBackground;
+  }
+  .favoriteBox {
+    width: 80%;
+    margin: auto;
+    .favoriteLength {
+      font: {
+        size: 18px;
+        weight: 600;
+      }
+      padding-bottom: 8px;
+    }
+    .favoriteItems {
+      margin-bottom: 100px;
+      border: {
+        bottom: 2px solid rgb(156, 156, 156);
+        top: 2px solid rgb(156, 156, 156);
+      }
+      .favoriteItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 10px;
+        border-bottom: 1px solid lightgray;
+        cursor: pointer;
+        &:hover {
+          background-color: rgb(236, 236, 236);
+        }
+        .favoriteInfo {
+          width: 20%;
+        }
+        .favoriteItemTitle {
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+        .favoriteItemMedia {
+          font: {
+            size: 14px;
+            weight: 600;
+            style: italic;
+          }
+          color: $mediaColor;
+        }
+        .favoriteDescription {
+          width: 50%;
+          font-size: 14px;
+          color: $mediaColor;
+          line-height: 1.5em;
+          padding: 0 30px;
+        }
+        .favoriteItemImg {
+          width: 20%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .favorite .favoriteBox {
+    width: 95%;
+    .favoriteItems {
+      .favoriteItem {
+        flex-direction: column;
+        padding: 20px 0;
+        .favoriteInfo {
+          width: 90%;
+          margin-bottom: 40px;
+        }
+        .favoriteDescription {
+          width: 90%;
+          margin-bottom: 40px;
+        }
+        .favoriteItemImg {
+          width: 40%;
+        }
+      }
+    }
+  }
+}

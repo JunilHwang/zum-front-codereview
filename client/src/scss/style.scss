@@ -1,0 +1,35 @@
+@import "sub/var";
+@import "sub/header";
+@import "sub/contents";
+@import "sub/ranking";
+@import "sub/detailPage";
+@import "sub/favoritePage";
+
+/* Global style */
+#app {
+  overflow-x: hidden;
+}
+#page {
+  overflow-y: hidden;
+}
+
+.star {
+  background: none;
+  border: none;
+  padding-top: 5px;
+  color: $starYellow;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+  &:active {
+    transform: scale(1.5);
+  }
+}
+.route {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,140 @@
+/* Contents and SubPage */
+
+.contents,
+.subPage {
+  width: 90%;
+  padding-top: 100px;
+  margin: auto;
+}
+.subPage {
+  margin-bottom: 100px;
+  .subContents {
+    row-gap: 15vh;
+  }
+}
+.contents .contentItem {
+  margin-bottom: 15vh;
+  .categoryName {
+    margin-bottom: 30px;
+    font: {
+      size: 28px;
+      weight: 500;
+    }
+    color: $categoryName;
+    &::before {
+      content: "#";
+    }
+  }
+}
+
+.subPageTitle {
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  width: 100%;
+  height: 200px;
+  padding: 70px;
+  box-sizing: border-box;
+  background-color: $titleBackground;
+  color: white;
+}
+.contents .contentItem .category,
+.subPage .subContents {
+  display: grid;
+  grid-template-columns: repeat(4, 21%);
+  column-gap: 70px;
+}
+
+.contents .contentItem .category .categoryItem,
+.subPage .subContents .categoryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.contents .contentItem .category .categoryItem .categoryImg,
+.subPage .subContents .categoryItem .categoryImg {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.contents .contentItem .category .categoryItem .categoryImg.lazy,
+.subPage .subContents .categoryItem .categoryImg.lazy {
+  display: block;
+  width: 18vw;
+  height: 14vw;
+  background: #f1f1fa;
+}
+
+.contents .contentItem .category .categoryItem .itemTitle,
+.subPage .subContents .categoryItem .itemTitle {
+  font: {
+    weight: 700;
+    size: 18px;
+  }
+  margin-bottom: 8px;
+}
+.contents .contentItem .category .categoryItem .itemDescription,
+.subPage .subContents .categoryItem .itemDescription {
+  font-size: 14px;
+  color: rgb(131, 131, 131);
+  line-height: 1.3em;
+}
+.contents .contentItem .category .categoryItem .itemMeta,
+.subPage .subContents .categoryItem .itemMeta {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contents .contentItem .category .categoryItem .itemMeta .itemCompany,
+.subPage .subContents .categoryItem .itemMeta .itemCompany {
+  font: {
+    weight: 700;
+    size: 15px;
+    style: italic;
+  }
+  color: $mediaColor;
+}
+
+@media screen and (max-width: 1248px) {
+  .contents .contentItem .category,
+  .subPage .subContents {
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 50px;
+    row-gap: 15vh;
+  }
+  .contents .contentItem .category .categoryItem .categoryImg.lazy,
+  .subPage .subContents .categoryItem .categoryImg.lazy {
+    width: 26.5vw;
+    height: 19.5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contents,
+  .subPage {
+    width: 95%;
+  }
+  .contents .contentItem .category,
+  .subPage .subContents {
+    grid-template-columns: repeat(2, 45%);
+  }
+  .contents .contentItem .category .categoryItem .categoryImg.lazy,
+  .subPage .subContents .categoryItem .categoryImg.lazy {
+    width: 41.5vw;
+    height: 30.5vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contents .contentItem .category,
+  .subPage .subContents {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .contents .contentItem .category .categoryItem .categoryImg.lazy,
+  .subPage .subContents .categoryItem .categoryImg.lazy {
+    width: 92vw;
+    height: 68vw;
+  }
+}
