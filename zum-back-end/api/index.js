@@ -9,7 +9,7 @@ router.get("/best", (req, res, next) => {
   try {
     let data = fs.readFileSync("cache/json/best.json");
     data = JSON.parse(data);
-    setTimeout(() => res.json(data), 3000);
+    res.json(data);
   } catch (err) {
     res.status(500).send(`Throw Exception -> ${err}`);
   }
