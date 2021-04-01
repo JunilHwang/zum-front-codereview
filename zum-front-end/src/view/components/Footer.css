@@ -1,0 +1,20 @@
+/* Foot Section */
+
+/*
+* Title : Foot Information
+* Description : Foot width and height size define
+*/
+.copy-right {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.copy-right > p {
+  margin: auto;
+  color: #a0a0a0;
+  margin-top: 10px;
+}
+/* Foot Information FINISH */

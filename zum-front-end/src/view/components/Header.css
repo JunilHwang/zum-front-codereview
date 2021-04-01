@@ -1,0 +1,85 @@
+/* Head Section */
+#header {
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background: white;
+}
+
+/*
+* Title : Head Logo
+* Description : Head width and height size define
+*/
+.head {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.head-logo {
+  line-height: 50px;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.head-logo > img {
+  line-height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* Head FINISH */
+
+/*
+* Title : Menu
+* Description : Menu List define
+*/
+.menu {
+  width: 100%;
+  height: 50px;
+}
+.menu > ul > li {
+  list-style: none;
+  line-height: 50px;
+  min-width: 60px;
+  text-align: center;
+  float: left;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.menu > ul > li:first-child {
+  margin-left: 0px;
+}
+.menu > ul > .active {
+  background-color: #547ea7;
+  padding-bottom: 0.7rem;
+  font-weight: bold;
+}
+.menu > ul > .active > a {
+  padding: 1rem;
+  color: white;
+}
+.menu > ul > .active > a:hover {
+  color: white !important;
+}
+.menu > ul > .active > a:active {
+  color: white !important;
+}
+
+.menu > ul > li > a {
+  color: black;
+  padding: 1rem;
+}
+.menu > ul > li > a:active {
+  color: white;
+}
+.menu > ul > li > a:hover {
+  color: #547ea7;
+}
+
+:target {
+  background-color: yellow;
+}
+/* Menu FINISH */

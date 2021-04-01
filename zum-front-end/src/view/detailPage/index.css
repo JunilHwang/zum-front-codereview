@@ -1,0 +1,60 @@
+/* Contents Section */
+
+/*
+* Title : Contents
+* Description : for footer min-height
+*/
+.contents {
+  min-height: calc(100vh - 150px);
+}
+/* Contents FINISH */
+
+/*
+  * Title : title
+  * Description : Page Information
+  */
+.title {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: #7f9ebd;
+}
+
+.title > p {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 200px;
+}
+/* title FINISH */
+
+/*
+  * Title : bottom
+  * Description : Page bottom Information
+  */
+.bottom-action {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.bottom-action > button {
+  margin-left: 7px;
+  margin-right: 7px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  transition: 0.05s;
+}
+.bottom-action > button:hover {
+  background-color: rgba(255, 212, 0, 0.7);
+  transition: 0.05s;
+}
+.bottom-action > button:active {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 212, 0, 0.7);
+}
+.bottom-active {
+  background-color: rgba(255, 212, 0, 0.7) !important;
+}
+/* bottom FINISH */

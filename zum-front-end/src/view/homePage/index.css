@@ -1,0 +1,106 @@
+/* Contents Section */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/*
+* Title : Contents
+* Description : for footer min-height
+*/
+.contents {
+  min-height: calc(100vh - 150px);
+}
+/* Contents FINISH */
+
+/*
+* Title : Display row
+* Description : ROW and Col
+*/
+.row {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.col-4 {
+  width: 100%;
+  max-width: 33.33333333333333%;
+  float: left;
+}
+.col-3 {
+  width: 100%;
+  max-width: 25%;
+  float: left;
+}
+.col-8 {
+  width: 100%;
+  max-width: 66.66666666666667%;
+  float: left;
+}
+/* Display row FINISH */
+
+/*
+* Title : Top 4 rank img
+* Description : img caption
+*/
+.img {
+  position: relative;
+  color: white;
+}
+.img > img {
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  transition: 0.15s;
+}
+.img:hover > img {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  transition: 0.15s;
+}
+.img-caption {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 25%;
+}
+.img-caption--tag > span {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.img-caption--title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.img-caption--action {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+.img-caption--action > button {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  margin-left: 7px;
+  margin-right: 7px;
+  transition: 0.05s;
+}
+
+.img-caption--action > button:hover {
+  background-color: rgba(255, 212, 0, 0.7);
+  transition: 0.05s;
+}
+
+.img-caption--action > button:active {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 212, 0, 0.7);
+}
+/* Top 4 rank img FINISH */

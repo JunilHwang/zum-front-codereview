@@ -1,0 +1,29 @@
+/* Contents Section */
+
+/*
+* Title : Contents
+* Description : for footer min-height
+*/
+.contents {
+  min-height: calc(100vh - 150px);
+}
+/* Contents FINISH */
+
+/*
+* Title : title
+* Description : Page Information
+*/
+.title {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: #7f9ebd;
+}
+
+.title > p {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 200px;
+}
+/* title FINISH */

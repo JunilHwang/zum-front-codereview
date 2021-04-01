@@ -1,0 +1,53 @@
+/* topRank Section */
+
+/*
+* Title : rank
+* Description : rank, rank title, rank reporter
+*/
+.rank {
+  padding: 10px;
+  display: inline-block;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 112px;
+}
+
+.rank-1,
+.rank-2,
+.rank-3 {
+  color: #547ea7 !important;
+}
+.rank > .rank-rank {
+  width: 100%;
+  max-width: 20%;
+  float: left;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  font-style: italic;
+}
+.rank > .rank-contents {
+  width: 100%;
+  max-width: 80%;
+  float: left;
+}
+
+.rank > .rank-contents > .rank-contents--title {
+  font-size: 1rem;
+  color: black;
+}
+.rank > .rank-contents > .rank-contents--reporter {
+  padding-top: 12px;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.rank-link > .rank:hover > .rank-rank,
+.rank-link > .rank:hover > .rank-contents > .rank-contents--reporter,
+.rank-link > .rank:hover > .rank-contents > .rank-contents--title,
+.rank-link > .rank:hover {
+  color: white !important;
+  background-color: #547ea7 !important;
+}
+/* rank FINISH */
