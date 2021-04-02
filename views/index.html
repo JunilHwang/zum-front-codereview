@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../public/stylesheets/style.css" /> -->
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script defer src="/javascripts/main.js"></script>
+    <title>Zum 허브줌</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li id="ranking" class="history" route="/">Home</li>
+        <li id="life" class="history" route="/life">라이프</li>
+        <li id="food" class="history" route="/food">푸드</li>
+        <li id="trip" class="history" route="/trip">여행</li>
+        <li id="culture" class="history" route="/culture">컬쳐</li>
+        <li id="favorite" class="history" route="/favorite">즐겨찾기</li>
+      </ul>
+    </nav>
+    <section class="container">
+      <h1 class="title"></h1>
+      <div class="content">
+        <div class="content__best"></div>
+        <div class="content__section"></div>
+        <div class="content_link">
+          <a href="/life">
+            <button class="title__btn title__life"># 라이프</button>
+          </a>
+          <a href="/food">
+            <button class="title__btn title__food"># 음식</button>
+          </a>
+          <a href="/trip">
+            <button class="title__btn title__trip"># 여행</button>
+          </a>
+          <a href="/culture">
+            <button class="title__btn title__culture"># 문화</button>
+          </a>
+        </div>
+        <div class="content__best__section">
+          <p># 라이프</p>
+          <div class="best__section best__life"></div>
+          <p># 푸드</p>
+          <div class="best__section best__food"></div>
+          <p># 여행</p>
+          <div class="best__section best__trip"></div>
+          <p># 컬쳐</p>
+          <div class="best__section best__culture"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
