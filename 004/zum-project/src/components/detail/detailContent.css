@@ -1,0 +1,17 @@
+.detail_content {
+    width:780px;
+    line-height: 2;
+}
+.detail_content p {
+    margin : 10px 0;
+}
+.detail_content .img_cap {
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    text-align: center;
+
+}
+.img_block img {
+    width : 780px;
+    object-fit: cover;
+}

@@ -1,0 +1,7 @@
+.ranking_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width: 1170px;
+    margin : 0 0 20px 0;
+}

@@ -1,0 +1,15 @@
+.home_card_list_wrap {
+    width : 1170px;
+    height : 315px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+div[data-component="card"] .category {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}

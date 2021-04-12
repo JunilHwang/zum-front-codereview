@@ -1,0 +1,21 @@
+.favor_list {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-flow: wrap;
+    flex-direction: column;
+    width:1170px;
+    margin-top:20px;
+    min-height: 724px;
+}
+div[data-component="favor"] .category {    
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    border-bottom: 3px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+div[data-component="favor"] .category i {
+    width: 100%;
+}

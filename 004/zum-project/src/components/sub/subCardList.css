@@ -1,0 +1,23 @@
+.sub_card_list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    width:1170px;
+    margin-top:20px;
+    min-height: 724px;
+}
+.sub_card_list .card_wrap {
+    margin-bottom: 20px;
+}
+div[data-component="sub"] .category {
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    border-bottom: 3px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+div[data-component="sub"] .category i {
+    width: 100%;
+}

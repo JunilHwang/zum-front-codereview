@@ -1,0 +1,18 @@
+.detail_title{
+    width:780px;
+    background: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    margin:20px 0;
+}
+
+.detail_title .title {
+    font-size : 2.5rem;
+    font-weight: bold;
+
+}
+.detail_title .media {
+    font-size : 1rem;
+    color:#999;
+    padding : 20px 0;
+    text-align: right;
+}
