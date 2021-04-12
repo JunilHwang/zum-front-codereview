@@ -1,0 +1,40 @@
+@import 'src/components/Menu/variables';
+
+.sub_contents h4 {
+  font-size: 30px;
+  color: #497eb1;
+}
+.sub_list {
+  display: flex;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.sub_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub_item a {
+  text-decoration: none;
+  color: $color-sub-item;
+  &:hover {
+    color: $color-sub-item-hover;
+  }
+}
+
+.thumb {
+  display: block;
+}
+
+.sub_title {
+  display: inline-block;
+  margin-top: 20px;
+  color: $color-sub-item;
+}
+
+.sub_text {
+  display: inline-block;
+  margin-top: 20px;
+  height: 100px;
+}

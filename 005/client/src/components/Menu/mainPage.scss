@@ -1,0 +1,74 @@
+@import 'src/components/Menu/variables';
+
+.menu_container {
+  list-style: none;
+}
+.main_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.detail_container img {
+  display: block;
+  margin: 0px auto;
+}
+
+li {
+  display: inline-block;
+  background-color: $white;
+  cursor: pointer;
+  margin-left: 30px;
+  font-size: 20px;
+  &:hover {
+    color: $color-menu-hover;
+  }
+}
+
+.ranking_comment {
+  text-align: center;
+}
+.ranking_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  margin: 0 auto;
+}
+.ranking_link {
+  display: flex;
+}
+.ranking_item {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 150px;
+  border: 1px solid $white;
+  background-color: $color-ranking-item;
+  box-sizing: border-box;
+  padding-top: 10px;
+  &:hover {
+    background-color: $color-menu-hover;
+    color: $white;
+  }
+}
+.ranking_item a {
+  text-decoration: none;
+  color: $black;
+  &:hover {
+    color: $white;
+  }
+}
+.ranking_index {
+  font-size: 30px;
+}
+.item_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.item_media {
+  margin-top: 20px;
+  color: $color-item-media;
+}
