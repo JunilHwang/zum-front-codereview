@@ -1,0 +1,33 @@
+{
+  "name": "hub-zum-api-server",
+  "version": "1.0.0",
+  "description": "hub.zum.com data crawling & api server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon --exec babel-node index.js",
+    "start": "babel-node index.js"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "webpack",
+    "babel",
+    "hub-zum"
+  ],
+  "author": "wiii",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "playwright": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.12",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.9.1",
+    "nodemon": "^2.0.7",
+    "regenerator-runtime": "^0.13.7"
+  }
+}

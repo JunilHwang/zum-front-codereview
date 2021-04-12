@@ -1,0 +1,30 @@
+$main-blue-color: rgb(0, 119, 182);
+
+footer {
+  #intersection-root {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30vh;
+    background-color: grey;
+  }
+
+  #footer-hr {
+    width: 70%;
+    min-width: 400px;
+    margin: 5px;
+    border: 1px solid $main-blue-color;
+  }
+
+  p {
+    width: 100%;
+    font-size: 9px;
+    justify-content: center;
+    font-style: italic;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}

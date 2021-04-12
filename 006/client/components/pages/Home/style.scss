@@ -1,0 +1,28 @@
+$header_height: 60px;
+$footer_height: 40px;
+
+header,
+main,
+footer {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  height: $header_height;
+}
+
+main {
+  min-height: calc(100vh - #{$header_height} - #{$footer_height});
+  height: fit-content;
+}
+
+footer {
+  bottom: 0;
+  height: $footer_height;
+  padding: 5px;
+  justify-content: center;
+}

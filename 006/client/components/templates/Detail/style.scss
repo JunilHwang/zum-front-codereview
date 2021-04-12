@@ -1,0 +1,14 @@
+section#detail-template {
+  flex-direction: column;
+  justify-content: center;
+
+  iframe#detail-content {
+    width: 100%;
+    max-width: 1200px;
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    border: 0;
+  }
+}

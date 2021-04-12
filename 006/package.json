@@ -1,0 +1,35 @@
+{
+  "name": "hub-zum-clone",
+  "version": "1.0.0",
+  "description": "hub.zum.com Clone",
+  "main": "index.js",
+  "scripts": {
+    "start:win": "set NODE_ENV=production cd ./client && npx webpack ./index.js && cd ../server && babel-node ./index.js",
+    "start:unix": "NODE_ENV=production cd ./client && npx webpack ./index.js && node ../server/index.js",
+    "start:server": "cd ./server && npm start",
+    "watch:server": "cd ./server && npm run dev",
+    "watch:client": "cd ./client && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitgitWi/zum-hub-clone.git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "babel",
+    "hub-zum"
+  ],
+  "author": "wiii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitgitWi/zum-hub-clone/issues"
+  },
+  "homepage": "https://github.com/gitgitWi/zum-hub-clone#readme",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}

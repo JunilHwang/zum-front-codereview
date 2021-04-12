@@ -1,0 +1,15 @@
+#app {
+  width: 100%;
+  flex-direction: column;
+
+  @media screen and (max-width: 500px) {
+    width: 500px;
+    overflow-x: auto;
+  }
+
+  // for desktop
+  @media only screen and (min-width: 768px) {
+    width: 100%;
+    max-width: 1200px;
+  }
+}

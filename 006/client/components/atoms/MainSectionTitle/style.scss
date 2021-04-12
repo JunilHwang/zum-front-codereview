@@ -1,0 +1,13 @@
+$main-blue-color: rgb(0, 119, 182);
+
+.main-section-title {
+  height: 50px;
+  width: max-content;
+  padding-bottom: 5px;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 900;
+  font-family: serif;
+  color: $main-blue-color;
+  cursor: pointer;
+}
