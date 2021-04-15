@@ -1,0 +1,54 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+  &__logo {
+    min-height: 55px;
+    min-width: 1000px;
+    margin: 0 auto;
+    &__wrap {
+      display: inline-block;
+      margin-top: 13.75px;
+      > span {
+        vertical-align: super;
+      }
+    }
+  }
+  &__nav {
+    min-width: 1000px;
+    margin: 0 auto;
+    &__wrap {
+      display: flex;
+      flex-direction: row;
+      margin-right: 12px;
+      > a {
+        text-align: center;
+        height: 48px;
+        width: 48px;
+        line-height: 48px;
+        padding: 0 12px;
+      }
+      > a:hover {
+        color: #4776a2;
+        font-weight: bold;
+      }
+      &.-active {
+        background-color: #547ea7;
+        > a {
+          color: #fff;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &__title {
+    text-align: center;
+    background-color: #7f9ebd;
+    min-height: 150px;
+    &.-text {
+      font-size: 30px;
+      color: #fff;
+      font-weight: bold;
+      line-height: 150px;
+    }
+  }
+}

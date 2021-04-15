@@ -1,0 +1,32 @@
+.List {
+  margin-top: 60px;
+  &__wrap {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  &__card {
+    display: inline-block;
+    width: 260px;
+    margin-right: 24px;
+    &__item {
+      cursor: pointer;
+      &.--title {
+        max-height: 38px;
+        margin-top: 12px;
+        font-size: 20px;
+        font-weight: bold;
+        overflow: hidden;
+      }
+      &.--contents {
+        color: gray;
+        padding-top: 12px;
+        max-height: 30px;
+        overflow: hidden;
+      }
+    }
+    &.--media {
+      padding: 8px 0;
+      font-size: 12px;
+    }
+  }
+}

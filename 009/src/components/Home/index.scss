@@ -1,0 +1,86 @@
+.Home {
+  padding-top: 20px;
+  max-width: 1050px;
+  margin: 0 auto;
+  &__wrap {
+    + div {
+      margin-top: 24px;
+    }
+
+    padding-bottom: 16px;
+    border-bottom: 1px solid lightgray;
+  }
+  &__title {
+    display: inline-block;
+    color: #497eb1;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  &__card {
+    display: inline-block;
+    width: 247px;
+    padding-top: 16px;
+    margin-right: 12px;
+    &__item {
+      cursor: pointer;
+      &.--title {
+        max-height: 34px;
+        margin-top: 12px;
+        font-size: 18px;
+        font-weight: bold;
+        overflow: hidden;
+      }
+      &.--contents {
+        color: gray;
+        font-size: 14px;
+        padding-top: 12px;
+        height: 26px;
+        overflow: hidden;
+      }
+    }
+    &__media {
+      padding: 16px 0 8px 0;
+      font-size: 12px;
+    }
+  }
+  &__ranking {
+    margin-bottom: 60px;
+    &__list {
+      &.--box {
+        cursor: pointer;
+        background-color: #f5f5f5;
+        margin-left: 4px;
+        padding: 16px;
+        max-width: 227px;
+        display: inline-block;
+        margin-bottom: 16px;
+      }
+      &.--title {
+        display: inline-block;
+        font-size: 14px;
+        width: 210px;
+        height: 60px;
+        > :nth-child(1) {
+          display: inline-block;
+          height: 30px;
+        }
+      }
+      &.--author {
+        display: block;
+        padding-top: 20px;
+        font-size: 12px;
+        padding-left: 16px;
+      }
+      &.--rank {
+        width: 12px;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+    &.--title {
+      font-size: 20px;
+      margin: 0 0 24px 0;
+    }
+  }
+}
