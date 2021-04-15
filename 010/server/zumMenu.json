@@ -1,0 +1,19 @@
+[{
+    "menu" : "HOME",
+    "id" : "home"
+},{
+    "menu" : "라이프",
+    "id" : "life"
+},{
+    "menu" : "푸드",
+    "id" : "food"
+},{
+    "menu" : "여행",
+    "id" : "traval"
+},{
+    "menu" : "컬쳐",
+    "id" : "culture"
+},{
+    "menu" : "즐겨찾기",
+    "id" : "favorites"
+}]
