@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+#app {
+  width: 1000px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #ededed;
+  color: #333;
+}
+.card__list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card__item {
+  flex-basis: 25%;
+  width: 25%;
+  height: 403px;
+  padding: 2.5%;
+}
+.card__thumbnail {
+  display: block;
+  width: 202%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.card__title {
+  margin-top: 1.2rem;
+  font-size: 17px;
+}
+.card__media__name {
+  display: inline-block;
+  margin-top: 1.2rem;
+  font-size: 12px;
+}

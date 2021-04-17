@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Page App</title>
+    <script type="module" defer src="/src/router.js"></script>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/index.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="/" class="nav__link" data-link>홈</a>
+      <a href="/life" class="nav__link" data-link>라이프</a>
+      <a href="/food" class="nav__link" data-link>푸드</a>
+      <a href="/trip" class="nav__link" data-link>여행</a>
+      <a href="/culture" class="nav__link" data-link>컬처</a>
+      <a href="/favorites" class="nav__link" data-link>즐겨찾기</a>
+    </nav>
+    <div id="app"></div>
+  </body>
+</html>
