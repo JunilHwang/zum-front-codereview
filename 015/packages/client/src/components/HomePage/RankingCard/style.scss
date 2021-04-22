@@ -1,0 +1,33 @@
+.ranking-card {
+  width: 25%;
+  display: block;
+
+  a {
+    display: block;
+    position: relative;
+    padding: 8px;
+    padding-left: 40px;
+    background-color: beige;
+    border: 1px solid white;
+    height: 112px;
+
+    .rank {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      font-size: 1.25rem;
+    }
+
+    .title {
+      font-weight: normal;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .author {
+      position: absolute;
+      bottom: 12px;
+      color: #444;
+    }
+  }
+}

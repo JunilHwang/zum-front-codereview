@@ -1,0 +1,54 @@
+.card {
+  display: block;
+  position: relative;
+  width: 25%;
+  word-break: break-all;
+  margin-bottom: 1.25rem;
+  height: 300px;
+
+  a {
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .img-thumb {
+    img {
+      width: 100%;
+    }
+  }
+
+  .title {
+    display: block;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+  }
+
+  .text {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: lighter;
+    color: grey;
+    line-height: 18px;
+    max-height: 36px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+
+  .author {
+    font-size: 0.85rem;
+    color: grey;
+    padding-left: 0.5rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .bookmark-btn {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.15rem 0.25rem;
+    cursor: pointer;
+  }
+}

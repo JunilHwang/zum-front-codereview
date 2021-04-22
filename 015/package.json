@@ -1,0 +1,13 @@
+{
+  "name": "zum-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dogyeong/zum-assignment.git",
+  "author": "dogyeong <shroad1802@naver.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/server",
+    "packages/client"
+  ],
+  "private": true
+}

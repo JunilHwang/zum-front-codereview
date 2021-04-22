@@ -1,0 +1,16 @@
+.menu-list {
+  display: flex;
+  margin: 2rem 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  a {
+    display: block;
+    padding: 1rem;
+  }
+
+  li.active > a {
+    background-color: dodgerblue;
+    color: white;
+  }
+}
