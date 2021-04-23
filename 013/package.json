@@ -1,0 +1,62 @@
+{
+  "name": "zum",
+  "version": "1.0.0",
+  "description": "줌 프론트엔드 과제전형",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "cross-env WEBPACK_ENV=development webpack -w",
+    "dev:server": "nodemon --exec babel-node src/backEnd/init.js --delay 2",
+    "build:assets": "cross-env WEBPACK_ENV=production webpack",
+    "build:server": "babel src --out-dir build --ignore 'src/css'",
+    "copyAll": "cp -R build/backEnd/static build/backEnd && cp -r src/backEnd/view build/backEnd && cp -R src/backEnd/controllers/JSON build/backEnd/controllers",
+    "build": "npm run build:server && npm run build:assets",
+    "start": "node build/backEnd/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seows2/zum_vanillaJS.git"
+  },
+  "author": "seows2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seows2/zum_vanillaJS/issues"
+  },
+  "homepage": "https://github.com/seows2/zum_vanillaJS#readme",
+  "browserslist": [
+    "defaults",
+    "last 3 version",
+    "Chrome >= 59",
+    "ie 11",
+    "not ie <= 10"
+  ],
+  "dependencies": {
+    "@babel/node": "^7.13.13",
+    "@babel/polyfill": "^7.12.1",
+    "autoprefixer": "^10.2.5",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "cross-env": "^7.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "cors": "^2.8.5",
+    "css-loader": "^5.2.0",
+    "eslint": "^7.23.0",
+    "mini-css-extract-plugin": "^1.4.1",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.9",
+    "postcss-loader": "^5.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0"
+  }
+}

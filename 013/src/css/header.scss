@@ -1,0 +1,15 @@
+.header{
+    padding: 2% 5%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        li{
+            font-size: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+        a:hover{
+            color: royalblue;
+        }
+    }
+}
