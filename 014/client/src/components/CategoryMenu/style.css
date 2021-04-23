@@ -1,0 +1,38 @@
+.CategoryMenu {
+  display: flex;
+  border: 1px solid #ededed;
+  position: relative;
+  height: 46px;
+  background: #fff;
+  margin-left: 40px;
+}
+
+.CategoryMenu span {
+  display: block;
+  min-width: 40px;
+  color: #333;
+  line-height: 46px;
+  letter-spacing: -1px;
+  font-weight: 550;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.CategoryMenu span:hover {
+  color: #4776a2;
+}
+
+.CategoryMenu .active {
+  color: #fff;
+  background-color: #547EA7;
+}
+
+.CategoryMenu .active:hover {
+  color: #fff;
+}
+
+.CategoryMenu li {
+  list-style: none;
+}

@@ -1,0 +1,73 @@
+.mainRank ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+}
+
+.mainRank ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  width: 238px;
+  height: 112px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.mainRank ul li:hover {
+  color: #fff;
+  background-color: #5c82a8;
+}
+
+.mainRank ul li:hover a {
+  color: #fff;
+}
+
+.mainRank ul li:hover .rank_number {
+  color: #fff;
+}
+
+.mainRank ul li:hover .author {
+  color: #fff;
+}
+
+.mainRank h3 {
+  margin-left: 40px;
+  margin-bottom: -10px;
+  font-weight: 100;
+  border-top: 1px solid #b8b8b8;
+  padding-top: 30px;
+}
+
+.mainRank ul li {
+  position: relative;
+  list-style: none;
+  width: 225x;
+  height: 112px;
+  overflow: hidden;
+  background: #f5f5f5;
+  padding-left: 53px;
+}
+
+.mainRank .rank_number {
+  position: absolute;
+  color: #547EA7;
+  top: 25px;
+  left: 20px;
+  width: 15px;
+  height: 21px;
+  font-size: 23px;
+}
+
+.mainRank .rank_title {
+  display: block;
+  padding: 20px 30px 0 0;
+}
+
+.mainRank .author {
+  display: block;
+  font-size: 10px;
+  color: #b8b8b8;
+  padding-top: 3px;
+}
