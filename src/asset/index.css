@@ -1,0 +1,10 @@
+.link {
+    cursor: pointer;
+}
+
+button.link {
+    cursor: pointer;
+    padding: 8px;
+    margin: 8px;
+    float: right;
+}

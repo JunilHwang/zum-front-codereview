@@ -1,0 +1,10 @@
+.title{
+    font-weight: bold;
+    padding: 8px;
+    background-color: aliceblue;
+}
+.content {
+    padding: 8px;
+    white-space: pre;
+    border-top: 1px solid black;
+}

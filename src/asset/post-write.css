@@ -1,0 +1,16 @@
+.title{
+    font-weight: bold;
+    padding: 8px;
+    background-color: aliceblue;
+}
+
+textarea.contents{
+    min-height: 300px;
+}
+textarea {
+    padding: 8px;
+    border-top: 1px solid black;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+}

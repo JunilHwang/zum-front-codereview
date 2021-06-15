@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: cornflowerblue;
+}
+
+tr:hover {
+    background-color: aliceblue;
+}
+
+th, td {
+    padding: 8px;
+    white-space: pre;
+    text-align: left;
+}
