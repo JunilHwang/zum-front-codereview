@@ -1,0 +1,214 @@
+body {
+    --nav-width: 150px;
+    margin: 0 0 0 var(--nav-width);
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background: #222222;
+}
+
+.nav__link {
+    display: block;
+    padding: 40px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+.nav__link:hover {
+    background: rgba(111, 187, 241, 0.696);
+}
+
+#app {
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #009579;
+}
+
+
+.cards{
+    width: 450px;
+    height: 480px;
+    float: left;
+    margin: 10px;
+}
+
+
+
+
+.card_image > img{
+    display: block;
+    width: 450px;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card_title{
+    height: 15%;
+
+}
+
+.card_title > span{
+    font-weight :700;
+    display: block;
+    max-height: 48px;
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 17px 0 5px;
+    cursor: pointer;
+}
+
+.card_content{
+    height: 11%;
+    overflow: hidden;
+
+}
+
+.card_content > span{
+    display: block;
+    max-height: 40px;
+    overflow: hidden;
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 7px 0 1px;
+    cursor: pointer;
+}
+
+
+.card_button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.card_button:hover {
+    color: #ff7a59;
+  background:#fff;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+.card_media{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 4px;
+    float: left;
+}
+
+.card_media >span{
+    color: #d2d2d2;
+    text-decoration: none;
+
+}
+
+.bottom{
+    flex-direction: row;
+    padding: 50px 0px 100px 0px;
+}
+
+.rankingCard {
+    width: 450px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    flex-direction: row;
+    background-color: rgb(223, 226, 232);
+}
+
+
+.rankingCard:hover {
+    background: rgba(111, 187, 241, 0.696);
+    cursor: pointer;
+}
+
+.card_left{
+    float: left;
+    height: 100%;
+    width: 16%;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+
+
+.ranking_title{
+    padding: 5px 20px 0px 10px;
+    height: 50px;
+
+}
+
+.author{
+    color: #b8b8b8;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+
+.detailPage{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.detail_top{
+    background: #7f9ebd;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    
+
+}
+
+.detail_top>div{
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Nanum Myeongjo','맑은 고딕','Malgun Gothic',sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    word-break: break-all;
+    letter-spacing: -3px;
+}
+
+
+
+.detail_middle{
+    margin: 10px 0px 10px 0px;
+    white-space:nowrap; 
+    overflow-x: auto; text-align:center
+}
+
+.detail_middle > img{
+    height: 550px;
+    object-fit: cover;
+    padding-left: 10px;
+    
+}
+
+.detail_bottom{
+    background-color: rgb(217, 227, 232);
+    padding: 10px 80px 0px 80px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 150%;
+}
