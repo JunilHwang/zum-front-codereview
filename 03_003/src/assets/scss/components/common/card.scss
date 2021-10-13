@@ -1,0 +1,70 @@
+.card {
+  width: 22%;
+  cursor: pointer;
+  margin-bottom: 3rem;
+
+  .thumb {
+    margin-bottom: 1rem;
+    position: relative;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+    .bookmarkIcon {
+      padding: 0.5rem;
+      position: absolute;
+      right: 0.5rem;
+      top: 0.5rem;
+
+      i {
+        font-size: 1.6rem;
+      }
+      .far {
+        color: #fff;
+      }
+      .far:hover {
+        color: $zum_logo;
+      }
+      .fas {
+        color: $zum_logo;
+      }
+      .fas:hover {
+        color: #fff;
+      }
+    }
+  }
+  .title {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .summary {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: $zum_lightgray;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .media {
+    display: inline-block;
+    color: $zum_lightgray;
+    font-size: 0.8rem;
+  }
+}
+
+.card:hover {
+  img {
+    background-color: $zum_lightgray;
+    filter: brightness(70%);
+  }
+  .title {
+    color: $zum_blue;
+  }
+}

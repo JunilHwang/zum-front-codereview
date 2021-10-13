@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+$zum_logo: #2c4cff;
+$zum_blue: #547ea7;
+$zum_lightblue: #7f9ebd;
+$zum_gray: #f5f5f5;
+$zum_lightgray: rgba(0, 0, 0, 0.3);
+
+@import 'reset';
+
+@import 'src/assets/scss/components/common/header';
+@import 'src/assets/scss/components/common/card';
+
+@import 'src/assets/scss/components/main/banner';
+@import 'src/assets/scss/components/main/topContents';
+@import 'src/assets/scss/components/main/cardList';
+
+@import 'src/assets/scss/components/category/categoryCardList';
+
+@import 'src/assets/scss/components/bookmark/bookmark';
+
+@import 'src/assets/scss/components/detail/detail';
+
+#app {
+  width: 1280px;
+  margin: 0 auto 6rem;
+  padding: 0 2rem;
+}

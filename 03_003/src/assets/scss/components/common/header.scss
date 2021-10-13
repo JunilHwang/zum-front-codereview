@@ -1,0 +1,65 @@
+header {
+  padding-top: 1.5rem;
+
+  .headerTop {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+
+    img {
+      width: 8.5rem;
+      height: 2rem;
+      cursor: pointer;
+      margin-left: 1rem;
+    }
+
+    .bookmark {
+      font-size: 0.9rem;
+
+      .fa-bookmark {
+        margin-right: 0.3rem;
+      }
+    }
+
+    .bookmark:hover {
+      font-weight: bold;
+      color: $zum_blue;
+    }
+  }
+
+  ul.categoryList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;
+
+    li.category {
+      width: 5rem;
+      white-space: nowrap;
+      margin-right: 0.5rem;
+      text-align: center;
+
+      a {
+        display: inline-block;
+        width: 100%;
+        line-height: 3rem;
+      }
+    }
+
+    li.category:hover {
+      color: $zum_blue;
+      font-weight: bold;
+    }
+
+    li.category.selected {
+      background-color: $zum_blue;
+      color: #fff;
+      font-weight: bold;
+      border-top: 1px solid $zum_blue;
+      border-bottom: 1px solid $zum_blue;
+    }
+  }
+}

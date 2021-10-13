@@ -1,0 +1,61 @@
+#topContents {
+  margin-bottom: 4rem;
+
+  h1 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .topContainer {
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      li.topItem {
+        width: 25%;
+        height: 8rem;
+        padding: 1.5rem 2rem 2rem 2rem;
+        background-color: $zum_gray;
+
+        a {
+          display: flex;
+        }
+
+        .rank_number {
+          display: inline-block;
+          color: $zum_lightgray;
+          font-size: 2rem;
+          margin-right: 1rem;
+        }
+        .title {
+          display: inline-block;
+          margin-bottom: 0.5rem;
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+        }
+        .media {
+          display: inline-block;
+          color: $zum_lightgray;
+          font-size: 0.8rem;
+        }
+      }
+
+      li.topItem:hover {
+        cursor: pointer;
+        background-color: $zum_blue;
+        color: #fff;
+
+        .rank_number {
+          color: #fff;
+        }
+        .media {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+#categoryCardList {
+  h1.category_name {
+    margin: 3.5rem auto 6rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: $zum_blue;
+  }
+
+  .cardContainer {
+    margin-bottom: 3rem;
+
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    ul > li {
+      margin-right: 3rem;
+    }
+
+    ul > li:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+#cardList {
+  margin-bottom: 6rem;
+
+  h1 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    color: $zum_blue;
+  }
+
+  .cardContainer {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+}

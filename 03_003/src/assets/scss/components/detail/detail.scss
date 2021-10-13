@@ -1,0 +1,81 @@
+#detail {
+  scroll-behavior: smooth;
+
+  .detailHeader {
+    margin-top: -0.1rem;
+    margin-bottom: 3rem;
+    height: 15rem;
+    padding: 4rem 3rem;
+    background-color: $zum_lightblue;
+    color: #fff;
+    font-weight: 300;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    span {
+      color: $zum_gray;
+    }
+  }
+
+  .detailContents {
+    width: 100%;
+    margin-bottom: 8rem;
+    line-height: 1.3rem;
+
+    .img_block,
+    .multi_img_block {
+      font-size: 0.8rem;
+      text-align: center;
+      margin: 0 auto;
+
+      td {
+        display: block;
+        margin-bottom: 5rem;
+      }
+    }
+
+    p > img,
+    td > img {
+      display: block;
+      margin: 3rem auto 1rem;
+      width: 80%;
+    }
+    .mov_block {
+      margin: 3rem auto;
+    }
+  }
+
+  .detailBottom {
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    text-align: right;
+
+    button {
+      margin-right: 0.6rem;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      border: 1px solid $zum_blue;
+    }
+    button:hover {
+      color: #fff;
+      background-color: $zum_blue;
+      .bookmarkIcon {
+        color: #fff;
+      }
+    }
+
+    .bookmarkIcon {
+      font-size: 1rem;
+      margin-right: 0.5rem;
+    }
+    .bookmarkIcon.far {
+      color: $zum_blue;
+    }
+    .bookmarkIcon.fas {
+      color: $zum_logo;
+    }
+  }
+}
