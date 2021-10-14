@@ -1,0 +1,17 @@
+#menu {
+  font-size: 100%;
+
+  .navigation {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    .nav-item {
+      flex-basis: 100px;
+      
+    }
+    .selected {
+      font-size: 150%;
+    }
+  }
+}
