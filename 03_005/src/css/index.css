@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+* {
+    /* outline: 1px solid #d9d9d9; */
+    box-sizing: border-box;
+}
+
+#app {
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    overflow: auto; /* overflow : 요소의 크기가 더 클 때 어떻게 보일지 선택함 */
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    position: sticky;
+    top : 0;
+    z-index: 2;
+    background: white;
+}

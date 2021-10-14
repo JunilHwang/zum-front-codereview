@@ -1,0 +1,38 @@
+{
+  "name": "zum_frontend_homework",
+  "version": "1.0.0",
+  "description": "FrontEnd Developer Applicant - Giwon Lim",
+  "main": "app.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "cross-env NODE_ENV=production node ./src/server/server.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "axios": "^0.22.0",
+    "core-js": "^3.18.1",
+    "express": "^4.17.1",
+    "puppeteer": "^10.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "babel-register": "^6.26.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.3.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-middleware": "^5.2.1",
+    "webpack-hot-middleware": "^2.25.1"
+  }
+}

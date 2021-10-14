@@ -1,0 +1,32 @@
+#header {
+    width: 100%;
+}
+#logo {
+    margin: auto;
+    width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+.header_logo {
+    max-width: 80px;
+    max-height: 30px;
+}
+
+.navi {
+    width:100%;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px 0;
+}
+
+.navi > ul {
+    margin: auto;
+    width: 1200px;
+}
+
+.navi > ul > li {
+    width: 15%;
+    margin: 0 5px 0 5px;
+    padding: 0;
+    float: left;
+}

@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+}
+* {
+    /* outline: 1px solid #d9d9d9; */
+    box-sizing: border-box;
+}
+
+#app {
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    overflow: auto; /* overflow : 요소의 크기가 더 클 때 어떻게 보일지 선택함 */
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    position: sticky;
+    top : 0;
+    z-index: 2;
+    background: white;
+}
+
+.post-link {
+    color:black;
+    text-decoration: none;
+}
+.post-link:hover {
+    cursor: pointer;
+}
+
+.post-link:nth-child(1):hover {
+    color:steelblue;
+    filter: brightness(85%);
+}
+
+.sub_thumbnail {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sub_title {
+    height: 42px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* 최대 라인 수 결정 */
+    -webkit-box-orient: vertical; /* webkit-box-orient */
+}
+
+.sub_content {
+    width: 100%;
+    height: 35px;
+    font-size: 10pt;
+    color:grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* 최대 라인 수 결정 */
+    -webkit-box-orient: vertical; /* webkit-box-orient */
+    margin-bottom: 10px;
+}
+
+.sub_writer {
+    width: 90%;
+    float: left;
+    font-size: 9pt;
+    color:lightgray;
+}
+.category-list .post-wrap {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.category-list ul {
+    padding: 0;
+}
+
+.category-list li{
+    width: 25%;
+}
+#cate3_top4 {
+    position:relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#cate3_top4 ul {
+    width: 100%;
+    padding: 0 0 40px 0;
+    box-sizing: content-box;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#cate3_top4 li {
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+#top12 {
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+#top12 ul {
+    display:grid;
+    grid-template-rows: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+}
+
+#top12 li {
+    width: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background-color:#f5f5f5 ;
+
+}
+
+#top12 li:hover {
+    background-color: #5c82a7;
+}
+#top12 li:hover .post-idx {
+    color: white;
+}
+#top12 li:hover .sub_content {
+    color: #b0cfe6;
+}
+#header {
+    width: 100%;
+}
+#logo {
+    margin: auto;
+    width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+.header_logo {
+    max-width: 80px;
+    max-height: 30px;
+}
+
+.navi {
+    width:100%;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px 0;
+}
+
+.navi > ul {
+    margin: auto;
+    width: 1200px;
+}
+
+.navi > ul > li {
+    width: 15%;
+    margin: 0 5px 0 5px;
+    padding: 0;
+    float: left;
+}
+
+#contents {
+    margin: auto;
+    width: 1200px;
+}
+
+/*# sourceMappingURL=style.css.map*/

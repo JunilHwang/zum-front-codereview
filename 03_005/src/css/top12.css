@@ -1,0 +1,29 @@
+#top12 {
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+#top12 ul {
+    display:grid;
+    grid-template-rows: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+}
+
+#top12 li {
+    width: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background-color:#f5f5f5 ;
+
+}
+
+#top12 li:hover {
+    background-color: #5c82a7;
+}
+#top12 li:hover .post-idx {
+    color: white;
+}
+#top12 li:hover .sub_content {
+    color: #b0cfe6;
+}

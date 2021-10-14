@@ -1,0 +1,49 @@
+
+.post-link {
+    color:black;
+    text-decoration: none;
+}
+.post-link:hover {
+    cursor: pointer;
+}
+
+.post-link:nth-child(1):hover {
+    color:steelblue;
+    filter: brightness(85%);
+}
+
+.sub_thumbnail {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sub_title {
+    height: 42px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* 최대 라인 수 결정 */
+    -webkit-box-orient: vertical; /* webkit-box-orient */
+}
+
+.sub_content {
+    width: 100%;
+    height: 35px;
+    font-size: 10pt;
+    color:grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* 최대 라인 수 결정 */
+    -webkit-box-orient: vertical; /* webkit-box-orient */
+    margin-bottom: 10px;
+}
+
+.sub_writer {
+    width: 90%;
+    float: left;
+    font-size: 9pt;
+    color:lightgray;
+}

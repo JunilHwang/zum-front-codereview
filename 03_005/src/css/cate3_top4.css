@@ -1,0 +1,18 @@
+#cate3_top4 {
+    position:relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#cate3_top4 ul {
+    width: 100%;
+    padding: 0 0 40px 0;
+    box-sizing: content-box;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#cate3_top4 li {
+    width: 25%;
+    padding: 0 15px;
+}
+
