@@ -1,0 +1,17 @@
+.menu-bar{
+    display: block;
+    min-height: 140px;
+    overflow: hidden;
+    background: #7f9ebd;
+    text-align: center;
+    div {
+        font-family: 'Nanum Myeongjo', serif;
+        color: #FFFFFF;
+        font-size: 34px;
+        padding-top: 50px;
+    }
+}
+
+.div-contents {
+    padding-top: 60px;
+}
