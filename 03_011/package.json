@@ -1,0 +1,43 @@
+{
+  "name": "zoompackage",
+  "version": "1.0.0",
+  "description": "For 코드리뷰",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "export NODE_ENV=development && webpack serve --config webpack.dev.js --open --port 1337",
+    "build": "export NODE_ENV=production && webpack --config webpack.prod.js",
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUPINKIM/zoom_privew_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUPINKIM/zoom_privew_project/issues"
+  },
+  "homepage": "https://github.com/SUPINKIM/zoom_privew_project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.3.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "ejs-loader": "^0.5.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "nodemon": "^2.0.13",
+    "webpack": "^5.58.0",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "puppeteer": "^10.4.0"
+  }
+}

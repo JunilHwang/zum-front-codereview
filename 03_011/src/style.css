@@ -1,0 +1,32 @@
+:root {
+  --bright-gray: #ced6e0;
+  --light-yellow: #f9ca24;
+  --light-gray: #a4b0be;
+  --bright-blue: #6a89cc;
+  --light-blue: #2e86de;
+  --light-beige: #f7f1e3;
+  --prime-gray: #333;
+  --dark-gray: #2d3436;
+  --dark-blue: #273c75;
+  --prime-gray: #718093;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#app {
+  width: 130vh;
+  min-width: 1170px;
+  height: 100vh;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 768px) {
+  #app {
+    width: 100vh;
+  }
+}
