@@ -1,0 +1,52 @@
+.content-img {
+  height: 200px;
+  width: 270px;
+}
+
+.content-title {
+  display: block;
+  max-height: 48px;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 17px 0 2px;
+  cursor: pointer;
+}
+
+.content-text {
+  display: block;
+  max-height: 40px;
+  overflow: hidden;
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 7px 0 1px;
+  cursor: pointer;
+}
+
+.content-wrapper {
+  width: 270px;
+  height: 382px;
+}
+
+.content-list-wrapper {
+  max-width: 868px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.content-pre {
+  color: rgb(210, 210, 210);
+  font-size: 13px;
+  font-family: 'Nanum Myeongjo', '맑은 고딕', 'Malgun Gothic', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.content-name {
+  color: #b8b8b8;
+  font-size: 12px;
+  margin-left: 5px;
+  letter-spacing: -1px;
+}
