@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+	</head>
+	<body>
+		<body>
+			<template id="zum-detail">
+				<section>
+					<div class="detail-header"></div>
+					<div class="detail-content"></div>
+					<div class="detail-footer"></div>
+				</section>
+			</template>
+			<template id="zum-section">
+				<section>
+					<h3></h3>
+					<ul></ul>
+				</section>
+			</template>
+			<template id="zum-best">
+				<section class="best">
+					<h3>실시간 순위</h3>
+					<ul></ul>
+				</section>
+			</template>
+			<template id="zum-app">
+				<div>
+					<header></header>
+					<nav id="nav">
+						<div class="nav-category">
+							<ul>
+								<li><a data-nav href="/">홈</a></li>
+								<li><a data-nav href="/life">라이프</a></li>
+								<li><a data-nav href="/food">푸드</a></li>
+								<li><a data-nav href="/trip">여행</a></li>
+								<li><a data-nav href="/culture">컬쳐</a></li>
+							</ul>
+						</div>
+						<div class="nav-favorite">
+							<ul>
+								<li><a data-nav href="/favorite">즐겨찾기</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="container">
+						<div data-component="section" data-category="life" data-home></div>
+						<div data-component="section" data-category="food" data-home></div>
+						<div data-component="section" data-category="trip" data-home></div>
+						<div data-component="section" data-category="culture" data-home></div>
+						<div data-component="best"></div>
+					</div>
+				</div>
+			</template>
+			<div id="root">
+				<div data-component="app"></div>
+			</div>
+		</body>
+		<script type="module" src="./src/index.ts"></script>
+	</body>
+</html>
