@@ -1,0 +1,9 @@
+@import './home/rankings.scss';
+
+.main-wrap {
+  margin: 0 auto;
+  padding: 0 $default-side-padding;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+}

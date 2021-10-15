@@ -1,0 +1,18 @@
+@import '@src/style/reset.scss';
+@import '@src/style/variables.scss';
+
+@import '@src/style/common/header.scss';
+@import '@src/style/common/contents.scss';
+@import '@src/style/common/loading.scss';
+@import '@src/style/homePage.scss';
+@import '@src/style/detailPage.scss';
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  min-width: 1024px;
+}

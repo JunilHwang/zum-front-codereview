@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "allowJs": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@public/*": ["public/*"]
+    }
+  },
+  "exclude": ["node_modules", "build", "webpack.common.js"]
+}

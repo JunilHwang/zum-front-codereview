@@ -1,0 +1,23 @@
+{
+  "name": "zum_test_server",
+  "version": "1.0.0",
+  "description": "this is server for zum_test",
+  "main": "server.js",
+  "author": "somedaycode",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd ../client && yarn build && cd ../server && yarn server",
+    "develop": "concurrently \"yarn webpackDev\" \"yarn server\"",
+    "server": "nodemon server.js",
+    "webpackDev": "cd ../client && yarn start"
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
