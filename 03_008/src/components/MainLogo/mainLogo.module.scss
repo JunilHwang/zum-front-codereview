@@ -1,0 +1,24 @@
+.mainLogoHeading {
+  width: 118px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 65px;
+  height: 27px;
+}
+
+.hubText {
+  font: {
+    size: 23px;
+    weight: 700;
+  }
+
+  margin: {
+    top: 3px;
+    left: 12px;
+  }
+}

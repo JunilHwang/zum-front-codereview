@@ -1,0 +1,25 @@
+.menu {
+  margin: {
+    right: 10px;
+  }
+  button {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+    padding: 10px 0;
+    color: rgb(51, 51, 51);
+    font: {
+      size: 15px;
+      weight: 500;
+    }
+  }
+
+  &:hover {
+    button {
+      color: rgb(73, 126, 177);
+    }
+  }
+}

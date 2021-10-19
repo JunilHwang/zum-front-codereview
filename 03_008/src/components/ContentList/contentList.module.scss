@@ -1,0 +1,21 @@
+.contentList {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: {
+    bottom: 30px;
+  }
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.sectionTitleStyle {
+  color: #497eb1;
+  font: {
+    size: 2rem;
+    weight: 500;
+  }
+  margin: {
+    bottom: 16px;
+  }
+}

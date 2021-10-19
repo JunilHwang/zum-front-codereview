@@ -1,0 +1,55 @@
+.rankingItem {
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+  width: 291px;
+  margin: {
+    right: 1px;
+    bottom: 1px;
+  }
+
+  .author {
+    display: block;
+    margin-top: 10px;
+
+    span {
+      color: rgb(210, 210, 210);
+      font: {
+        size: 1.2rem;
+      }
+    }
+  }
+
+  &:hover {
+    background-color: #6481a4;
+
+    .content {
+      color: #fff;
+    }
+
+    .author {
+      span {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.rankStyle {
+  font: {
+    size: 3.2rem;
+  }
+  margin: {
+    right: 16px;
+  }
+}
+
+.titleStyle {
+  font: {
+    size: 1.6rem;
+  }
+}

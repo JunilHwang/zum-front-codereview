@@ -1,0 +1,39 @@
+.articleCard {
+  width: 270px;
+}
+
+.thumbnail {
+  width: 270px;
+  height: 200px;
+}
+
+.content {
+  margin: {
+    top: 16px;
+  }
+}
+
+.titleStyle {
+  font: {
+    size: 18px;
+    weight: 700;
+  }
+  margin-bottom: 10px;
+}
+
+.descriptionStyle {
+  display: inline-block;
+  line-height: 1.1;
+  color: #999;
+  font: {
+    size: 1.6rem;
+  }
+  height: 32px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.mediaNameStyle {
+  color: #999;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,12 @@
+.rankingSection {
+  margin: {
+    top: 60px;
+    bottom: 50px;
+  }
+}
+
+.rankingList {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 16px;
+}
