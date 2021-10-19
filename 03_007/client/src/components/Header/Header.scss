@@ -1,0 +1,21 @@
+@import 'src/style/colors';
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 0 2em;
+  font-size: 1.1em;
+  font-weight: bold;
+  & > li {
+    cursor: pointer;
+    padding: 1em;
+  }
+  & > li:hover {
+    background-color: $bg-primary;
+    color: $color-text-light;
+  }
+
+  .selected {
+    background-color: $bg-primary;
+    color: $color-text-light;
+  }
+}

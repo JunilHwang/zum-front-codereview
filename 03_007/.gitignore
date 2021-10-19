@@ -1,0 +1,12 @@
+# IDE
+.idea
+
+# Node modules
+client/node_modules
+server/node_modules
+
+# build result
+client/build
+
+# yarn error
+server/yarn-error.log

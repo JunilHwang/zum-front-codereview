@@ -1,0 +1,9 @@
+@import "style/colors";
+[data-component="header"] {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: $bg-normal;
+  border-bottom: 1px solid $color-normal-shadow;
+  box-shadow: 0 3px 5px $color-normal-shadow;
+}
