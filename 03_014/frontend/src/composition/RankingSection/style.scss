@@ -1,0 +1,13 @@
+// Composition : RankingSection
+
+.ranking {
+  &__subject {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 16px;
+  }
+
+  &__section {
+    width: 100%;
+  }
+}

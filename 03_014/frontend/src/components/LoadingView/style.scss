@@ -1,0 +1,48 @@
+// Component - LoadingView
+
+@mixin animate($animation, $duration, $method, $times) {
+  animation: $animation $duration $method $times;
+}
+
+@mixin keyframes($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+.loading__view {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 100%;
+  min-height: 20vh;
+
+  .text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .loading__animation {
+    border: 2vw solid #ddd;
+    border-top-color: #333;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 30vh;
+    height: 30vh;
+
+    @include keyframes(spin) {
+      0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @include animate(spin, 1s, linear, infinite);
+  }
+}

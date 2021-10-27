@@ -1,0 +1,8 @@
+// Component : RankingList
+
+.ranking__list {
+  display: grid;
+  grid-template-columns: repeat(4, calc(100% / 4));
+  margin: 0 auto;
+  gap: 4px;
+}

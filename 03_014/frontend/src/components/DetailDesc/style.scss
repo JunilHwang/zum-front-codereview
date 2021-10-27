@@ -1,0 +1,73 @@
+// Component - DetailDesc
+
+@mixin flexSet($direction: row, $justifyContent: center, $alignItems: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+.detail__desc__inner {
+  margin: 0 auto;
+  padding: 24px 0;
+
+  .article {
+    @include flexSet(column);
+
+    row-gap: 8px;
+    font-size: 1.2rem;
+
+    * {
+      @include flexSet(column, center, flex-start);
+    }
+
+    p,
+    span {
+      font-size: 1.5rem;
+    }
+
+    .img_cap {
+      color: rgb(153, 153, 153);
+      font-size: 1.2rem;
+      font-family: 돋움, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+      line-height: 17px;
+      text-align: center;
+      padding: 11px 0px 0px 8px;
+    }
+  }
+
+  .grayline {
+    width: 100%;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(214, 214, 214, 0.671);
+  }
+
+  .article__info {
+    @include flexSet(row, space-between, center);
+    padding: 12px 0;
+
+    .date {
+      color: #888;
+      font-size: 1.7rem;
+      font-family: Georgia, Tahoma, sans-serif;
+      font-style: italic;
+    }
+    .buttons {
+      display: flex;
+      column-gap: 8px;
+
+      button,
+      a {
+        cursor: pointer;
+        color: #000;
+        border: 1px solid rgb(116, 116, 116);
+        padding: 4px 4px 6px 4px;
+        display: flex;
+        align-items: center;
+
+        font-size: 1.3rem;
+        font-family: "맑은 고딕", "Malgun Gothic", "돋움", dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+      }
+    }
+  }
+}

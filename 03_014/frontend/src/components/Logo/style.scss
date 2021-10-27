@@ -1,0 +1,16 @@
+// Component - Logo
+
+.logo {
+  img {
+    width: 65px;
+  }
+
+  span {
+    font-size: 2.1rem;
+  }
+
+  color: inherit;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}

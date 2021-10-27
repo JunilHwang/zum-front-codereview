@@ -1,0 +1,24 @@
+// Composition : Header
+
+.header__inner {
+  max-width: 1170px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__logo,
+  &__navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    min-height: 70px;
+  }
+
+  &__navbar {
+    min-height: 50px;
+  }
+}

@@ -1,0 +1,23 @@
+// Component : Nav
+
+.nav {
+  display: flex;
+}
+
+.nav__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  min-width: 60px;
+
+  a {
+    display: block;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 500;
+    &:hover {
+      color: #4776a2;
+    }
+  }
+}

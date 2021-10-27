@@ -1,0 +1,56 @@
+// Component : RankingItem
+
+.ranking__item {
+  color: #333;
+  display: block;
+  overflow: hidden;
+}
+
+.ranking__item__link {
+  color: inherit;
+  height: 70px;
+
+  display: grid;
+  grid-template-columns: 10% 90%;
+  padding: 16px 10px;
+  background-color: #f5f5f5;
+
+  &:hover {
+    color: #f5f5f5;
+    background-color: #5c82a8;
+  }
+
+  &--num {
+    font-size: 1.8rem;
+  }
+}
+
+.ranking__item__link--right {
+  display: grid;
+  grid-template-rows: 80% 20%;
+
+  span.bold {
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: 400;
+    word-break: break-all;
+  }
+
+  span.author {
+
+    span.pre {
+      color: #d2d2d2;
+      font-size: 1.3rem;
+      font-family: "Nanum Myeongjo", "맑은 고딕", "Malgun Gothic", sans-serif;
+      font-style: italic;
+      font-weight: 800;
+
+      margin-right: 4px;
+    }
+    span.name {
+      color: #b8b8b8;
+      font-size: 1.2rem;
+      letter-spacing: -1px;
+    }
+  }
+}

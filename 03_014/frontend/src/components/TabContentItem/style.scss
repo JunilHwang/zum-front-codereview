@@ -1,0 +1,74 @@
+// Component : TabContentItem
+
+.tab__content__item {
+  margin: 0 16px;
+  position: relative;
+}
+
+.tab__content__item .star {
+  position: absolute;
+  padding: 4px 4px 0 0;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  cursor: pointer;
+
+  max-width: 30px;
+}
+
+.tab__content__item .item {
+  position: relative;
+  display: block;
+  color: #444;
+  letter-spacing: -1px;
+  padding-bottom: 4px;
+  // word-break: break-all;
+
+  .thumb {
+    display: block;
+    max-height: 200px;
+  }
+
+  .title {
+    display: block;
+    max-height: 48px;
+    overflow: hidden;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 17px 0 2px;
+    // cursor: pointer;
+  }
+  .desc {
+    display: block;
+    max-height: 40px;
+    overflow: hidden;
+    color: #999;
+    font-size: 1.4rem;
+    line-height: 20px;
+    padding: 7px 0 1px;
+    // cursor: pointer;
+  }
+}
+
+.tab__content__item .author {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-top: 4px;
+
+  .pre {
+    color: #d2d2d2;
+    font-size: 1.3rem;
+    font-family: "Nanum Myeongjo", "맑은 고딕", "Malgun Gothic", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+  }
+
+  .name {
+    color: #b8b8b8;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+  }
+}

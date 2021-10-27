@@ -1,0 +1,48 @@
+// Component - DetailTitle
+.detail__title__inner {
+  min-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 12px;
+
+  .category {
+    height: 30px;
+    color: #e8f3ff;
+    font-size: 1.7rem;
+    letter-spacing: -1px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .subject {
+    width: 800px;
+    max-height: 120px;
+    overflow: hidden;
+    color: #fff;
+    font-family: "Nanum Myeongjo", "Malgun Gothic", sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 60px;
+    word-break: break-all;
+    letter-spacing: -3px;
+  }
+  .author {
+    span.pre {
+      color: #d2d2d2;
+      font-size: 1.3rem;
+      font-family: "Nanum Myeongjo", "맑은 고딕", "Malgun Gothic", sans-serif;
+      font-style: italic;
+      font-weight: 800;
+
+      margin-right: 4px;
+    }
+
+    span.name {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+  }
+}

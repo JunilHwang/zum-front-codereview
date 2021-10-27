@@ -1,0 +1,16 @@
+// Composition : DetailSection
+
+.detail__section {
+  .detail__title {
+    display: flex;
+    align-items: center;
+
+    min-height: 300px;
+    background-color: #7f9ebd;
+  }
+
+  .detail__desc {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}

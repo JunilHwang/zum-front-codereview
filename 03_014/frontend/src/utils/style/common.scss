@@ -1,0 +1,23 @@
+// Common (전역)
+
+html {
+  font-family: "맑은 고딕", "Malgun Gothic", "돋움", dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.default-style {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+  border: none;
+}

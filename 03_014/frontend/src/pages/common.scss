@@ -1,0 +1,19 @@
+// Pages 공용 (Common)
+
+.header {
+  border-bottom: 1px solid #ededed;
+}
+.ranking,
+.tabs,
+.loading__error {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.tabs {
+  border-bottom: 1px solid #eaeaea;
+}
+main.detail {
+  padding-bottom: 32px;
+}
