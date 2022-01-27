@@ -1,0 +1,35 @@
+@import "../../utils/style/mixin.scss";
+
+.edit__page--content {
+  display: grid;
+  row-gap: 12px;
+  padding: 8px 64px;
+  width: 100%;
+}
+
+.editbox {
+  padding: 16px;
+  min-height: 500px;
+}
+
+ul.editinfo,
+.editbox {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+}
+
+ul.editinfo {
+  display: grid;
+}
+
+ul.editinfo li {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  border: 1px solid var(--color-gray-300);
+
+  span.name {
+    padding: 16px;
+    font-weight: 700;
+    border-right: 1px solid var(--color-gray-300);
+  }
+}

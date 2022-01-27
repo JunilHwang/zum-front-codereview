@@ -1,0 +1,8 @@
+.app-input {
+  font-size: var(--page-font-size-small);
+  padding: 8px 12px;
+}
+
+input[name="pagination_input"].app-input {
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.app-link.btn {
+  cursor: pointer;
+  font-size: var(--page-font-size-small);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  padding: 8px 12px;
+
+  color: inherit;
+
+  &:hover {
+    background-color: var(--color-gray-100);
+  }
+}
