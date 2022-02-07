@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`게시글 목록 렌더링 1`] = `
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          글번호
+        </th>
+        <th>
+          제목
+        </th>
+        <th>
+          작성자
+        </th>
+        <th>
+          <a
+            href="#"
+          >
+            작성일
+          </a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>
+          1
+        </th>
+        <td>
+          <a
+            href="/1"
+          >
+            foo
+          </a>
+        </td>
+        <td>
+          <a
+            href="#"
+          >
+            baz
+          </a>
+        </td>
+        <td>
+          1970/1/1
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

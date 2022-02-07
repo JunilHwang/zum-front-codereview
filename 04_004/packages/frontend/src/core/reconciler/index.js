@@ -1,0 +1,1 @@
+export { instantiateTree } from './internal';
