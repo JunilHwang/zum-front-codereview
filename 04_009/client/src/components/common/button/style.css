@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--white);
+  font-weight: 500;
+  padding: 5px 0;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.button:hover {
+  background-color: var(--primary-3);
+}
+
+.button:disabled {
+  background-color: var(--primary-2);
+}
+
+.button.white {
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  color: black;
+}
+.button.white:hover {
+  background-color: white;
+}
+.button.white {
+  background-color: white;
+}
+
+.button ~ .button {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.button.large {
+  width: 200px;
+}

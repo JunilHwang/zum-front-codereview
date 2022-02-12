@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "commonjs": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "extends": ["airbnb-base", "plugin:prettier/recommended", "plugin:jest/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["@typescript-eslint", "prettier", "jest"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "no-console": "off",
+    "class-methods-use-this": "off",
+    "no-else-return": "off",
+    "consistent-return": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-plusplus": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "jest/no-conditional-expect": "off"
+  },
+  "ignorePatterns": ["jest.config.ts"]
+}

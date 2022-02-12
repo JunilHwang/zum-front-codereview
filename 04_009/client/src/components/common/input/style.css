@@ -1,0 +1,10 @@
+.input {
+  border-bottom: 1px solid var(--primary);
+  text-indent: 5px;
+  padding: 5px 0;
+  width: 300px;
+}
+
+.input ~ .input {
+  margin-top: 10px;
+}

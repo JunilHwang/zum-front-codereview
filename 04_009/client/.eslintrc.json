@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "commonjs": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "airbnb-typescript/base", "plugin:prettier/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "no-new": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    "class-methods-use-this": "off",
+    "no-plusplus": "off",
+    "no-continue": "off",
+    "import/no-unresolved": "off",
+    "no-else-return": "off",
+    "consistent-return": "off",
+    "no-console": "off",
+    "no-nested-ternary": "off",
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "@typescript-eslint/default-param-last": "off",
+    "@typescript-eslint/no-useless-constructor": "off",
+    "no-alert": "off"
+  },
+  "ignorePatterns": ["webpack.*.js", "jest.config.js", "setup-tests.ts"]
+}
