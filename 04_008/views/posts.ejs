@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h3>게시판</h3>
+        <div>
+            <input>
+            <button>검색</button>
+        </div>
+        <ul>
+            <% for(var i = 0; i < posts.datas.length; i++){ %>
+                <li>
+                    <a href="./posts/<%=posts.datas[i].id%>">제목 : <%= posts.datas[i].title %></a>
+                </li>
+                <li>날짜 : <%= posts.datas[i].date %></li>
+                <li>작성자 : <%= posts.datas[i].author %></li>
+                <!-- <li> 내용 : <%= posts.datas[i].content %></li> -->
+            <% } %>
+        </ul>
+        <div class="pageNavigation"><1,2,3,4></div>
+        <div>
+            <a href="write">
+                <button>나도 글 작성하기</button>
+            </a>
+            <button onClick="window.location.reload()">새로고침하기</button>
+            <button>초기화하기</button>
+        </div
+    </main>
+</body>
+</html>

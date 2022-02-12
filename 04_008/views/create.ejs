@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h3>게시글</h3>
+        <ul>
+            <li><i>글번호 <%= newData.id %></i> 제목 : <%= newData.title %></li>
+            <li>글작성자 : <%= newData.author %></li>
+            <li>글작성일 : <%= newData.date %></li>
+            <li>내용 <%= newData.content %> </li>
+        </ul>
+        <button onclick="location.href='/posts/edit'">수정</button>
+        <button onclick="location.href='/posts'">목록</button>
+        <button>삭제</button>
+    </main>
+</body>
+</html>
