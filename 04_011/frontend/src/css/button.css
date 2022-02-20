@@ -1,0 +1,28 @@
+button {
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  background: rgb(22, 96, 165);
+}
+
+button + button {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+#submitButtonBlock {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+#submitButtonBlock + #submitButtonBlock {
+  margin-left: 0.5rem;
+}
+
+button a {
+  color: white;
+}

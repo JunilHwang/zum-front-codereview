@@ -1,0 +1,15 @@
+#PostBlock {
+  padding: 2rem 2rem 0.5rem 2rem;
+  background-color: white;
+}
+
+#PostHead {
+  border-bottom: 1px solid;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+#PostContent {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
