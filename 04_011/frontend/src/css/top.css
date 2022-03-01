@@ -1,0 +1,41 @@
+#PostListTop #top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#PostListTopMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#PostListTop #top h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#PostListTop #top button {
+  height: fit-content;
+}
+
+#PostTop #PostHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#PostTop h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#PostTop #top button {
+  height: fit-content;
+}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@import url('./Header.css');
+@import url('./top.css');
+@import url('./PostList.css');
+@import url('./Post.css');
+@import url('./Write.css');
+@import url('./button.css');
+
+* {
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* 엘리먼트의 box-sizing 값을 border-box 로 설정 */
+  min-height: 100%;
+  background-color: #abd6f3;
+}
+
+#wrap {
+  margin: 0 auto;
+}
+
+#root {
+  min-height: 100%;
+}
+
+.spacer {
+  height: 6rem;
+}
+
+.common {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.rightBox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#notFound {
+  display: flex;
+  justify-content: center;
+}
