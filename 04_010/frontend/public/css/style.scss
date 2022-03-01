@@ -1,0 +1,78 @@
+@import "./reset.scss";
+@import "./font.scss";
+
+body {
+  font-family: "Nanum";
+  font-size: 50px;
+  background-color: #666;
+}
+button {
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #999;
+  }
+}
+ul {
+  padding: 20px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #555;
+}
+span {
+  display: inline;
+  text-align: center;
+}
+input[type="text"] {
+  height: 50px;
+  color: #cfcfcf;
+  background-color: #555;
+  outline: none;
+  border: none;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+}
+textarea {
+  width: 500px;
+  height: 540px;
+  font-size: 20px;
+  background-color: #555;
+  border: none;
+  outline: none;
+  color: #cfcfcf;
+  resize: none;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.center-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container {
+  border-radius: 5%;
+  background-color: #333;
+  width: 500px;
+  height: 655px;
+  align-items: flex-start;
+  color: #cfcfcf;
+  row-gap: 5px;
+  overflow-y: hidden;
+  padding: 20px;
+  align-items: center;
+}

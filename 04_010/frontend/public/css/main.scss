@@ -1,0 +1,23 @@
+.write-btn {
+  width: 200px;
+  height: 50px;
+}
+.refresh-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ul.container > li {
+  &:hover {
+    background-color: #aaa;
+    cursor: pointer;
+  }
+}
+.row-box {
+  flex-direction: row;
+  column-gap: 20px;
+}
+.column-info {
+  justify-content: space-around;
+  column-gap: 50px;
+}
