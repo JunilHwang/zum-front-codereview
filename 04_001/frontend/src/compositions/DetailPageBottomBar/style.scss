@@ -1,0 +1,8 @@
+@import "../../utils/style/mixin.scss";
+
+.detail__page--bottombar {
+  @include setFlex(row, flex-end, center);
+  column-gap: 12px;
+  padding: 8px 64px;
+  width: 100%;
+}

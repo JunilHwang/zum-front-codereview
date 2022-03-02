@@ -1,0 +1,11 @@
+@import "../../utils/style/mixin.scss";
+
+.main__page--topbar {
+  @include setFlex(row, space-between, center);
+  padding: 8px 64px;
+  width: 100%;
+  .topbar--box:nth-child(2) {
+    display: flex;
+    column-gap: 24px;
+  }
+}

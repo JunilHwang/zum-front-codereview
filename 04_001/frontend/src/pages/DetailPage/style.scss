@@ -1,0 +1,5 @@
+@import "../../utils/style/mixin.scss";
+
+.detail__page {
+  @include setFlex(column, flex-start);
+}

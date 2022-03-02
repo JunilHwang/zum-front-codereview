@@ -1,0 +1,8 @@
+@import "../../utils/style/mixin.scss";
+
+.main__page--board {
+  @include setFlex(column, center, center);
+  row-gap: 12px;
+  padding: 8px 64px;
+  width: 100%;
+}

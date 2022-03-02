@@ -1,0 +1,39 @@
+@import "../../utils/style/mixin.scss";
+
+.app-pagination {
+  @include setFlex();
+  column-gap: 8px;
+
+  ul {
+    @include setFlex();
+  }
+
+  li {
+    cursor: pointer;
+    font-size: var(--page-font-size-small);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-200);
+    padding: 12px;
+
+    &:hover {
+      background-color: var(--color-gray-100);
+    }
+  }
+
+  li.prev,
+  li.next {
+    font-size: var(--page-font-size);
+    font-weight: 700;
+  }
+
+  li.current {
+    color: var(--color-white);
+    font-weight: 700;
+    background-color: var(--color-gray-500);
+  }
+
+  li.disabled {
+    cursor: not-allowed;
+    background-color: var(--color-gray-100);
+  }
+}

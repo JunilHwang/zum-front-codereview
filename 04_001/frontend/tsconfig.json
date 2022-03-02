@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",           /* ECMA Script 버전을 'ES3'(기본값), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2019', 'ES2021' 또는 'ESNEXT'로 지정합니다.  */
+    "module": "esnext",        /* 모듈을 위한 코드 생성 설정: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+    // "jsx": "react",            /* JSX 코드 생성 설정: 'preserve', 'react-native', 혹은 'react'. */
+    "sourceMap": true,         /* '.map' 파일 생성 여부. */
+    "outDir": "./dist/",       /* 해당 디렉토리로 결과 구조를 보냅니다. */
+    "noImplicitAny": true,     /* 'any' 타입으로 구현된 표현식 혹은 정의 에러처리 여부 */
+    "lib": ["dom", "DOM.Iterable", "ESNext"],      /* 컴파일에 포함될 라이브러리 파일 목록 */
+    "skipLibCheck": true,                         /* 정의 파일의 타입 확인을 건너 뛸 지 여부 */
+    "allowSyntheticDefaultImports": true,          /* default export이 아닌 모듈에서도 default import가 가능하게 할 지 여부, 해당 설정은 코드 추출에 영향은 주지 않고, 타입확인에만 영향을 줍니다. */
+    "strict": true,                                /* 모든 엄격한 타입-체킹 옵션 활성화 여부 */
+    "noFallthroughCasesInSwitch": true,            /* switch문에서 fallthrough 케이스에 대한 에러보고 여부 */
+    "forceConsistentCasingInFileNames": true,      /* 같은 파일에 대한 일관되지 않은 참조를 허용하지 않을 지 여부 */
+    "isolatedModules": true,                       /* 각 파일을 분리된 모듈로 트랜스파일 ('ts.transpileModule'과 비슷합니다). */
+
+    "moduleResolution": "node",                    /* 모듈 해석 방법 설정: 'node' (Node.js) 혹은 'classic' (TypeScript pre-1.6). */
+    "resolveJsonModule": true,                     /*  TypeScript는 기본적으로 JSON 파일 확인을 지원하지 않음, 이 옵션을 true로 변경하면 지원 가능함. */
+    "esModuleInterop": true,                       /* 모든 imports에 대한 namespace 생성을 통해 CommonJS와 ES Modules 간의 상호 운용성이 생기게할 지 여부,
+                                                      'allowSyntheticDefaultImports'를 암시적으로 승인합니다. */
+    "noEmit": false,                              /* 결과 파일 내보낼지 여부 (이거 true하면 webpack serve 작동 불가) */
+    "allowJs": true,                               /* 자바스크립트 파일 컴파일 허용 여부 */
+
+    "baseUrl": "./",
+    "paths": { "@src/*": ["src/*"], "@public/*": ["public/*"], "@common/*": ["../common/*"] }, /* 절대 경로 설정 */
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/"]
+}

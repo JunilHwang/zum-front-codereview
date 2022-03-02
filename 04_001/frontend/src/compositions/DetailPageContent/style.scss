@@ -1,0 +1,38 @@
+@import "../../utils/style/mixin.scss";
+
+.detail__page--content {
+  display: grid;
+  row-gap: 12px;
+  padding: 8px 64px;
+  width: 100%;
+}
+
+.contents {
+  padding: 16px;
+  min-height: 500px;
+}
+
+ul.textinfo,
+.contents {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+}
+
+ul.textinfo {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+ul.textinfo li {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border: 1px solid var(--color-gray-300);
+
+  span {
+    padding: 16px;
+  }
+  span.name {
+    font-weight: 700;
+    border-right: 1px solid var(--color-gray-300);
+  }
+}
