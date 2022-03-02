@@ -1,0 +1,19 @@
+.textarea {
+  padding: 5px 0;
+  width: 100%;
+  resize: none;
+  padding: 10px 5px;
+  height: 50vh;
+}
+
+.input-user-container {
+  margin-left: auto;
+}
+
+.input-user-container input {
+  width: 150px;
+}
+
+.textarea-container {
+  margin-top: 30px;
+}

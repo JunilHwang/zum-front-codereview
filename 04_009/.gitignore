@@ -1,0 +1,28 @@
+# node
+node_modules
+
+#env
+.env
+.dev.env
+.test.env
+
+# build
+dist
+
+# yarn
+yarn-error.log
+
+# loggs
+logs
+
+# coverage
+coverage
+
+# snapshot
+__snapshots__
+
+.DS_Store
+
+db.json
+dev.json
+test.json

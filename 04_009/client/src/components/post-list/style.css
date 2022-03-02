@@ -1,0 +1,42 @@
+.post-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.post-title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.post-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.post-item > * {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.post-list .title {
+  width: 600px;
+}
+.post-list .user {
+  width: 100px;
+  margin-left: 10px;
+}
+.post-list .date {
+  width: 100px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}

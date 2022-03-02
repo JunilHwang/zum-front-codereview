@@ -1,0 +1,16 @@
+.form-search {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-container,
+.input-container .input {
+  width: 100%;
+}
+
+.btn-dropdown-container,
+.btn-container {
+  margin-left: 10px;
+}

@@ -1,0 +1,10 @@
+.pagination-wrapper .pagination {
+  padding: 0px 10px;
+  color: rgb(113, 113, 113);
+  font-size: 16px;
+}
+
+.pagination-wrapper .pagination.active {
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
