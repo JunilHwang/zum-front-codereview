@@ -1,0 +1,28 @@
+{
+    "datas" : [
+        {
+          "id" : 0,
+          "title" : "zum 코딩테스트 첫째날",
+          "date" : "2022-02-07",
+          "author" : "heina",
+          "content" : "한번 해보즈아"
+        },
+      
+        {
+          "id" : 1,
+          "title" : "zum 코딩테스트 둘째날",
+          "date" : "2022-02-08",
+          "author" : "heina",
+          "content" : "생각만큼 쉽지않아"
+        },
+    
+        {
+          "id" : 2,
+          "title" : "zum 코딩테스트 셋째날",
+          "date" : "2022-02-09",
+          "author" : "heina",
+          "content" : "아마도 완료?"
+        }
+      ] 
+  
+  }

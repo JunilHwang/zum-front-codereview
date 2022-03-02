@@ -1,0 +1,18 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+body {
+    background-image: url(../public/20181106_1850111.jpg);
+    /* display: block; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    color: white;
+}
+main {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}

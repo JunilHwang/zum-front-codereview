@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h3>게시글 수정하기</h3>
+        <form action="/edit/<%= edit.id%>?_method=PUT", method="POST" name="form" class="form-group" onsubmit=" return check_input()">
+            <div class="form-group-item">
+                <p>글번호 : <%= edit.id%> </p>
+            </div>
+            <div class="form-group-item">
+                <label>제목</label>
+                <input type="text" value="<%= edit.title%>" name="title" id="form-control">
+            </div>
+            <div class="form-group-item">
+                <label>날짜</label>
+                <input type="date" value="<%= edit.date%>" name="date" id="form-control">
+            </div>
+            <div class="form-group-item">
+                <label>작성자</label>
+                <input type="text" value="<%= edit.author%>" name="author" id="form-control">
+            </div>
+            <div class="form-group-item">
+                <label>내용</label>
+                <input type="text" value="<%= edit.content%>" name="content" id="form-control"">
+            </div>
+            <!-- <button type="submit" class="sub-button" onclick="reset()">Step Back</button> -->
+            <button type="reset" class="sub-button" onclick="history.go(-1)">Step Back</button>
+            <button type="submit" class="sub-button">Next Level</button>
+        </form>
+    </main>
+</body>
+</html>
+<script>
+    function check_input(){
+    if(!document.form.title.value){
+        alert("제목을 입력하세요");
+        return false;
+        document.form.title.focus();
+    }
+    else if(!document.form.date.value){
+        alert("날짜를 입력하세요");
+        return false;
+        document.form.date.focus()
+    }
+    else if(!document.form.author.value){
+        alert("이름을 입력하세요");
+        return false;
+        document.form.author.focus()
+    }
+    else if(!document.forms.content.value){
+        alert("내용을 입력하세요");
+        return false;
+        document.form.content.focus()
+    }
+    return true;
+    document.forms.submit();
+    };
+</script>
