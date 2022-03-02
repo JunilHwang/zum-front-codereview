@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <style>
+      table {
+        width: 50%;
+        display: table;
+        margin: auto;
+      }
+      .title {
+        text-align: left;
+        cursor: pointer;
+        max-width: 500px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      nav {
+        margin: auto;
+        width: 50%;
+        text-align: center;
+      }
+      a {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a data-url="/">Home</a></li>
+        <li><a data-url="/post/new">New Post</a></li>
+      </ul>
+    </nav>
+    <div id="root"></div>
+  </body>
+</html>
