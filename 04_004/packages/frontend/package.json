@@ -1,0 +1,9 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack -c webpack.prod.js",
+    "dev": "webpack serve -c webpack.dev.js"
+  }
+}
