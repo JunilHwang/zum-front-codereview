@@ -1,0 +1,33 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "csr:clear": "rimraf ./public/csr.js",
+    "ssr:clear": "rimraf ../server/public/ssr.js",
+    "csr:build": "npm run csr:clear & cross-env NODE_ENV=development webpack -w",
+    "ssr:build": "npm run ssr:clear & cross-env NODE_ENV=production webpack",
+    "dev:server": "cross-env NODE_ENV=development webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.69.1",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "css-loader": "^6.6.0",
+    "ignore-loader": "^0.1.2",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "ssr-webpack-plugin": "^2.0.1",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-manifest-plugin": "^4.1.1"
+  }
+}
